@@ -1,22 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Feliz Aniversário</title>
-</head>
-<body class="titulo">
+  </head>
+  <body class="titulo">
     <div class="header">
-        <img src="../img/doguinho.png" alt="Doguinho" class="doguinho">
-        <h1>Feliz Aniversário Amoor!!!</h1>
-        <img src="../img/mamaco na pose.png" alt="Mamaco na pose" class="mamaco">
+      <img src="../img/doguinho.png" alt="Doguinho" class="doguinho" />
+      <h1>Feliz Aniversário Amoor!!!</h1>
+      <img
+        src="../img/mamaco na pose.png"
+        alt="Mamaco na pose"
+        class="mamaco"
+      />
     </div>
-    <p>Esse site aqui é só para você, minha princesa, porque hoje é o seu dia</p>
-    <img src="../img/ebaa.png" alt="Ebaa" class="ebaa">
+    <p>
+      Esse site aqui é só para você, minha princesa, porque hoje é o seu dia!!
+    </p>
+    <img src="../img/ebaa.png" alt="Ebaa" class="ebaa" />
     <section>
-        <button class="botao">Ler textinho bobo</button>
-    
+      <button class="botao" id="toggleTextBtn">Ler textinho bobo</button>
+      <div id="textAreaContainer" style="display: none; margin-top: 20px">
+        <textarea id="messageBox" rows="10" cols="50">
+💚PARABENS AMOOOR Feliz aniversárioo, vc é a pessoa mais importante e especial da minha vida, eu te amo demais, então criei um cantinho na internet para vc sempre se lembra do quanto vc é importante para mim. Rosas no jardin.
+flores de limoeira 
+ninguem sabe o quanto eu amo minha princesa. 💚
+💚💚
+</textarea>
+      </div>
     </section>
-</body>
+    <section>
+      <button class="botao" id="toggleImageBtn">Entrar Na sua Festa Surpresa</button>
+    </section>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
