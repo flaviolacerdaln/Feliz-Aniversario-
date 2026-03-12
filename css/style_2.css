@@ -1,0 +1,108 @@
+.titulo2 {
+  background-image: url("../img/Festaa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;
+  width: 100%;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.header2 img {
+  width: 180px;
+  height: auto;
+  margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .header2 img {
+    width: 120px;
+  }
+  .ebaa, .gift {
+    width: 90px;
+  }
+  .botao {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) and (orientation: landscape) {
+  .content {
+    max-width: 100%;
+  }
+  .header2 img {
+    width: 100px;
+  }
+  .ebaa, .gift {
+    width: 80px;
+  }
+  .botao {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}.gift {
+  width: 120px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.explode {
+  animation: explodeAnim 0.6s forwards;
+}
+
+@keyframes explodeAnim {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.6) rotate(20deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(0) rotate(40deg);
+    opacity: 0;
+  }
+}
+.ebaa {
+  width: 290px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.botao {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
