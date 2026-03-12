@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (imageBtn) {
     imageBtn.addEventListener("click", function () {
-      window.location.href = "index_2.html";
+      window.location.href = "./Html/index_2.html";
     });
   }
 
   const festaBtn = document.getElementById("festaBtn");
   if (festaBtn) {
     festaBtn.addEventListener("click", function () {
-      window.location.href = "Index.html";
+      window.location.href = "../Index.html";
     });
   }
 
